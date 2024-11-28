@@ -6,3 +6,11 @@ hist.index = pd.to_datetime(hist.index, unit='s')
 target_col = 'close'
 
 hist.head(5)
+
+high	low	open	volumefrom	volumeto	close	conversionType	conversionSymbol
+time								
+2021-07-12	43332.66	40546.21	42480.01	8119.51	3.415466e+08	41111.64	direct	
+2021-07-13	41683.54	40182.18	41111.64	8079.27	3.310639e+08	40843.30	direct	
+2021-07-14	41461.98	39425.62	40843.30	5772.57	2.337096e+08	41190.69	direct	
+2021-07-15	41690.23	39149.66	41190.69	6310.66	2.531334e+08	39974.39	direct	
+2021-07-16	40681.86	38953.38	39974.39	8833.83	3.530134e+08	39432.51	direct	
